@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    /* [same styles as before] */
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
@@ -118,3 +119,93 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
+  <div class="hero">
+    <h1>We put the SERVE, back in SERVICE</h1>
+    <p>At Endeavor Home Services, when we say "we put the Serve back in Service" it means more than just doing a job well -- it means showing up with integrity, respect and real care. When we serve our customers right, it creates a ripple effect: homes run better, families feel safer, and our community grows stronger. Great service isn't just about HVAC -- it's about building trust and creating a positive ripple, one home at a time.</p>
+  </div>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+      <div style="background: white; padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #f4af1b;">Air Conditioning</h3>
+        <p>Expert AC installation, repair, and tune-ups to keep you cool and comfortable all summer long.</p>
+      </div>
+      <div style="background: white; padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #f4af1b;">Heating Systems</h3>
+        <p>Keep your family warm with reliable heating system maintenance, repair, and installation services.</p>
+      </div>
+      <div style="background: white; padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #f4af1b;">Indoor Air Quality</h3>
+        <p>Improve your home's air with filtration and purification solutions that support a healthier living environment.</p>
+      </div>
+      <div style="background: white; padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+        <h3 style="color: #f4af1b;">Preventive Maintenance</h3>
+        <p>Protect your investment and reduce breakdowns with scheduled system checkups and care.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Endeavor Home Services, we believe every home deserves to be a haven. For over 11 years, we've proudly served our community with honesty, heart, and heat (or cool!). Our mission is more than HVAC — it's to spark positive change, one ripple at a time.</p>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <blockquote>
+      "Endeavor Home Services treated our family like their own. Prompt, professional, and genuinely caring. The AC is running better than ever!"<br>– Sarah L.
+    </blockquote>
+    <blockquote>
+      "They don't just fix things — they show up with heart. We trust Endeavor with all our HVAC needs."<br>– The Rodriguez Family
+    </blockquote>
+    <blockquote>
+      "It’s rare to find a company that cares this much. We felt heard, respected, and well taken care of. Thank you, Endeavor!"<br>– Mike and Teresa G.
+    </blockquote>
+  </section>
+
+  <section class="ripple">
+    <h2>Our Ripple Philosophy</h2>
+    <p>We see every home we service as a starting point for positivity. Just like a ripple in water, kindness and quality care can spread. We’re not just fixing air — we’re uplifting families, one system at a time.</p>
+  </section>
+
+  <section id="appointment" class="appointment">
+    <h2>Book an Appointment</h2>
+    <form action="https://formsubmit.co/endeavor.home.services.llc@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Appointment Request from Website">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="address" placeholder="Service Address (optional)">
+      <input type="text" name="preferred_date" placeholder="Preferred Date">
+      <input type="text" name="preferred_time" placeholder="Preferred Time">
+      <select name="service">
+        <option value="">Select a Service</option>
+        <option value="AC Repair">AC Repair</option>
+        <option value="Heating Repair">Heating Repair</option>
+        <option value="Maintenance">HVAC Maintenance</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="Additional Notes"></textarea>
+      <button type="submit">Submit Appointment Request</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: endeavor.home.services.llc@gmail.com<br>
+    Phone: (555) 123-4567<br>
+    Service Area: Greater [Your City Name Here]</p>
+  </section>
+
+  <a href="https://g.co/kgs/9kEvagp" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #f4af1b; color: #000; padding: 12px 18px; border-radius: 30px; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2); text-decoration: none; z-index: 999;">
+    ⭐ Read Our Google Reviews
+  </a>
+
+  <div class="footer">
+    &copy; 2025 Endeavor Home Services LLC. All rights reserved.
+  </div>
+</body>
+</html>
