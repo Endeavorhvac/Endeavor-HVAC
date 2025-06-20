@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Endeavor Home Services LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091215367-7e0cdfbb6790?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      padding: 8rem 2rem;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero h1, .hero p {
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .about, .ripple, .contact, .appointment, .testimonials {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #f4af1b;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+      max-width: 600px;
+      margin-top: 1rem;
+    }
+    input, textarea, select, button {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #f4af1b;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    blockquote {
+      font-style: italic;
+      background: #fffbe6;
+      padding: 1rem;
+      border-left: 4px solid #f4af1b;
+      margin: 1rem 0;
+    }
+    .footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Endeavor Home Services Logo" />
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#appointment">Book Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+<!-- the rest of your HTML remains unchanged -->
